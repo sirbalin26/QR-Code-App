@@ -1,0 +1,58 @@
+html, body {
+  background-color: deepskyblue;
+}
+
+.body-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.input {
+  border: 2px solid #000;
+  background-color: lightgray;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.button {
+  border: 2px solid #000;
+  background-color: lightgray;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.buttonn {
+  border: 2px solid #000;
+  background-color: lightgray;
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.button:hover {
+  cursor:pointer;
+  background-color: orange;
+}
+
+.buttonn:hover {
+  cursor:pointer;
+  background-color: orange;
+}
+
+.result {
+  font-family: sans-serif;
+  font-size: 12px;
+}
