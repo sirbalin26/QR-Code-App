@@ -1,4 +1,4 @@
-function htmlEncode(value) { 
+function htmlEncode(value) {
     return $('<div/>').text(value).html(); 
 } 
 
@@ -11,11 +11,31 @@ $(function () {
 }); 
 
 function like() {
-	let infoapp;
-  if(confirm('Apreciezi aceasta aplicatie ?')) {
-  	infoapp = 'Multumesc!';
+	let likeapp;
+  if(confirm('Apreciaza aceasta aplicatie ?')) {
+  	likeapp = 'Multumesc!';
   } else {
-  	infoapp = 'Multumesc!';
+  	likeapp = 'Multumesc!';
   }
-  document.getElementById('result').innerHTML = infoapp;
+  document.getElementById('result').innerHTML = likeapp;
+}
+
+function dislike() {
+	let dislikeapp;
+  if(confirm('Nu aprecia aceasta aplicatie')) {
+  	dislikeapp = 'Multumesc!';
+  } else {
+  	dislikeapp = 'Multumesc!';
+  }
+  document.getElementById('result').innerHTML = dislikeapp;
+}
+
+function report() {
+  let reportapp;
+  if(confirm('Ai descoperit un bug? OK = TRIMITE ; ANULEAZA = RENUNTARE')) {
+    reportapp = 'Trimis!';
+  } else {
+    reportapp = 'Anulat!';
+  }
+  document.getElementById('result').innerHTML = reportapp;
 }
