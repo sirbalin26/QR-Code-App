@@ -1,3 +1,10 @@
+  @media only screen and(max-width:auto) {
+    html, body, .body-app {
+      max-height: auto;
+      display: flex;
+    }
+  }
+
   html, body {
     background-color: deepskyblue;
   }

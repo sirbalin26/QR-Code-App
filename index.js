@@ -1,3 +1,5 @@
+alert('Bun venit in aplicatia QR Code App!');
+
 function htmlEncode(value) {
     return $('<div/>').text(value).html(); 
 } 
